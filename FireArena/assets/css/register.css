@@ -1,0 +1,42 @@
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+     background:linear-gradient(135deg,rgba(255,77,0,.8),rgba(255,140,0,.8)),
+     url("/firearena/assets/images/auth-bg.jpg");       
+    background-image:url("/firearena/assets/images/auth-bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.card{
+    background:rgba(255,255,255,.90);
+    backdrop-filter:blur(10px);
+    border:none;
+    border-radius:18px;
+    box-shadow:0 20px 50px rgba(0,0,0,.4);
+}
+.card-header{
+    background:linear-gradient(135deg,#ff4d00,#ff8c00) !important;
+}
+
+.form-control{
+    border-radius:10px;
+}
+
+.btn{
+    border-radius:10px;
+}
+
+
+.btn-danger{
+    background:linear-gradient(135deg,#ff4d00,#ff8c00);
+    border:none;
+}
+
+.btn-danger:hover{
+    background:linear-gradient(135deg,#ff6b00,#ffa500);
+}

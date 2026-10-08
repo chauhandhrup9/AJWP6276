@@ -1,0 +1,629 @@
+/*=========================
+Hero Section
+==========================*/
+
+.hero-section{
+
+    background:
+    linear-gradient(rgba(10,10,10,.82),
+    rgba(10,10,10,.88)),
+    url("../images/hero-bg.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    overflow:hidden;
+}
+
+.hero-image{
+
+    max-height:650px;
+
+    animation: float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-15px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.hero-section h1{
+
+    line-height:1.15;
+
+}
+
+.hero-section .btn{
+
+    border-radius:50px;
+
+    font-weight:600;
+
+}
+
+.hero-section .btn-warning{
+
+    box-shadow:0 0 20px rgba(255,193,7,.4);
+
+}
+
+/*=========================
+Statistics
+==========================*/
+
+.stats-card{
+
+    background:#1b2235;
+
+    padding:40px 25px;
+
+    border-radius:18px;
+
+    transition:.35s;
+
+    height:100%;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.stats-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#ffc107;
+
+    box-shadow:0 15px 35px rgba(255,193,7,.18);
+
+}
+
+.stats-card h2{
+
+    color:#ffc107;
+
+    font-size:2.5rem;
+
+    font-weight:700;
+
+}
+
+.stats-card p{
+
+    font-size:17px;
+
+}
+
+/*=========================
+Tournament Cards
+==========================*/
+
+.tournament-card{
+
+    background:#1b2235;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    height:100%;
+
+}
+
+.tournament-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(255,193,7,.20);
+
+    border-color:#ffc107;
+
+}
+
+.tournament-image{
+
+    height:220px;
+
+    object-fit:cover;
+
+}
+
+.tournament-card .btn{
+
+    border-radius:30px;
+
+    font-weight:600;
+
+}
+
+/*=========================
+Why Us
+==========================*/
+
+.feature-card{
+
+    background:#1b2235;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    height:100%;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#ffc107;
+
+    box-shadow:0 20px 40px rgba(255,193,7,.15);
+
+}
+
+.feature-icon{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    margin-bottom:20px;
+
+}
+
+.feature-icon i{
+
+    color:white;
+
+    font-size:35px;
+
+}
+
+.feature-card h4{
+
+    color:#fff;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+.feature-card p{
+
+    color:#bbb;
+
+    margin-bottom:0;
+
+}
+
+/*=========================
+How It Works
+==========================*/
+
+.step-card{
+
+    background:#1b2235;
+
+    border-radius:20px;
+
+    padding:30px 20px;
+
+    text-align:center;
+
+    position:relative;
+
+    transition:.35s;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    height:100%;
+
+}
+
+.step-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#ffc107;
+
+    box-shadow:0 15px 35px rgba(255,193,7,.18);
+
+}
+
+.step-number{
+
+    position:absolute;
+
+    top:15px;
+
+    right:15px;
+
+    width:32px;
+
+    height:32px;
+
+    border-radius:50%;
+
+    background:#ffc107;
+
+    color:#000;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-weight:bold;
+
+    font-size:14px;
+
+}
+
+.step-icon{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:50%;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.step-icon i{
+
+    color:#fff;
+
+    font-size:34px;
+
+}
+
+.step-card h5{
+
+    color:#fff;
+
+    margin-bottom:15px;
+
+    font-weight:700;
+
+}
+
+.step-card p{
+
+    color:#bbb;
+
+    margin:0;
+
+    font-size:15px;
+
+}
+
+/*=========================
+Leaderboard
+==========================*/
+
+.leaderboard-box{
+
+    background:#1b2235;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.leaderboard-table{
+
+    color:#fff;
+
+}
+
+.leaderboard-table thead{
+
+    background:#252f49;
+
+}
+
+.leaderboard-table th{
+
+    color:#ffc107;
+
+    border:none;
+
+    padding:18px;
+
+}
+
+.leaderboard-table td{
+
+    padding:18px;
+
+    border-color:rgba(255,255,255,.08);
+
+}
+
+.leaderboard-table tbody tr{
+
+    transition:.3s;
+
+}
+
+.leaderboard-table tbody tr:hover{
+
+    background:#252f49;
+
+}
+
+.leader-avatar{
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:2px solid #ffc107;
+
+}
+
+.rank{
+
+    font-size:26px;
+
+}
+
+/*=========================
+FAQ
+==========================*/
+
+.custom-accordion .accordion-item{
+
+    background:#1b2235;
+
+    border:none;
+
+    margin-bottom:15px;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+}
+
+.custom-accordion .accordion-button{
+
+    background:#1b2235;
+
+    color:#fff;
+
+    font-weight:600;
+
+    padding:20px;
+
+    box-shadow:none;
+
+}
+
+.custom-accordion .accordion-button:not(.collapsed){
+
+    background:#252f49;
+
+    color:#ffc107;
+
+}
+
+.custom-accordion .accordion-button::after{
+
+    filter:invert(1);
+
+}
+
+.custom-accordion .accordion-body{
+
+    background:#252f49;
+
+    color:#ddd;
+
+    line-height:1.8;
+
+}
+
+/*=========================
+Contact Section
+==========================*/
+
+.contact-info{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+.contact-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.contact-item i{
+
+    width:60px;
+
+    height:60px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#ffc107;
+
+    color:#000;
+
+    border-radius:50%;
+
+    font-size:24px;
+
+}
+
+.contact-item h6{
+
+    color:#fff;
+
+    margin:0;
+
+}
+
+.contact-item p{
+
+    color:#bbb;
+
+    margin:0;
+
+}
+
+.contact-form{
+
+    background:#1b2235;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.contact-form .form-control{
+
+    background:#252f49;
+
+    border:none;
+
+    color:#fff;
+
+    padding:15px;
+
+}
+
+.contact-form .form-control::placeholder{
+
+    color:#aaa;
+
+}
+
+.contact-form .form-control:focus{
+
+    background:#252f49;
+
+    color:#fff;
+
+    box-shadow:none;
+
+    border:1px solid #ffc107;
+
+}
+
+.social-links{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.social-links a{
+
+    width:48px;
+
+    height:48px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#252f49;
+
+    color:#fff;
+
+    border-radius:50%;
+
+    transition:.3s;
+
+    text-decoration:none;
+
+    font-size:20px;
+
+}
+
+.social-links a:hover{
+
+    background:#ffc107;
+
+    color:#000;
+
+}
